@@ -17,6 +17,7 @@ while True:
             check = int(value)
         else:
             break
+            
     except:
         print('Invalid input')
         continue
