@@ -17,7 +17,7 @@ while True:
             check = int(value)
         else:
             break
-            
+
     except:
         print('Invalid input')
         continue
@@ -33,4 +33,5 @@ while True:
         smallest_value = check
 
 print('Maximum is', largest_value)
-print('Minimum is', smallest_value)    
+print('Minimum is', smallest_value)
+print('Done')    
